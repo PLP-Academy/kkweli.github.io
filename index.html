@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags for character encoding and responsive viewport -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title of the portfolio page -->
+  <title>Kkweli George - Portfolio</title>
+  <!-- External fonts and icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Reset and custom stylesheets -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header with navigation bar -->
+  <header role="banner">
+    <nav role="navigation" aria-label="Main navigation">
+      <!-- Logo section -->
+      <div class="logo">Kkweli George</div>
+      <!-- Toggle for mobile menu -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label"><i class="fas fa-bars"></i></label>
+      <label for="nav-toggle" class="nav-close-label"><i class="fas fa-times"></i></label>
+      <!-- Navigation links -->
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Main content with animated background -->
+  <main class="main-background">
+    <!-- Hero section with profile and intro -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <img src="assets/profile.jpg" alt="Kkweli George profile picture" class="profile-pic">
+        <div class="hero-text">
+          <h1>Kkweli George: Crafting Tomorrow's Tech</h1>
+          <p>Transforming bold ideas into cutting-edge software solutions with passion and precision.</p>
+          <a href="#projects" class="cta-button">Explore My Work</a>
+        </div>
+      </div>
+    </section>
+    <!-- About Me section with timeline and text -->
+    <section id="about" class="section">
+      <div class="about-content">
+        <div class="timeline">
+          <div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><h3>Joined Power Learn Project</h3><p>Embarked on my coding journey, eager to learn and contribute.</p></div></div>
+          <div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><h3>First Project: AfricanCapitals</h3><p>Launched an API to fetch African capital cities, marking my GitHub debut.</p></div></div>
+          <div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><h3>Contributed to Avaya Automation</h3><p>Developed scripts to streamline Avaya systems, enhancing efficiency.</p></div></div>
+          <div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><h3>Remote Directory Monitor</h3><p>Created a C# tool to monitor remote directories, showcasing versatility.</p></div></div>
+          <div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><h3>Ongoing Contributions</h3><p>Actively refining projects and exploring new challenges on GitHub.</p></div></div>
+        </div>
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>I’m Kkweli George, a passionate software developer and tech enthusiast in the Power Learn Project July 2025 cohort. With a knack for crafting innovative solutions, I thrive on turning ideas into reality through clean, efficient code. My projects, like <em>AfricanCapitals</em> (a scalable API for African capital cities), <em>Avaya</em> (Python Selenium automation scripts), and <em>Remote-directory-monitor</em> (a C# tool for directory monitoring), reflect my commitment to solving real-world challenges with creativity and ingenuity. Driven by a love for technology and continuous learning, I’m excited to build impactful software and connect with opportunities to grow in the tech world.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Services section with card layout and project stats -->
+    <section id="services" class="section">
+      <h2>Services</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Web Development</h3>
+          <p>Custom websites and web applications tailored to your needs with HTML, CSS, and JavaScript.</p>
+          <div class="stats">Projects Delivered: <span class="stat-count">5</span></div>
+        </div>
+        <div class="project-card">
+          <h3>Automation Solutions</h3>
+          <p>Efficient scripts using Python and Selenium to automate repetitive tasks and workflows.</p>
+          <div class="stats">Projects Delivered: <span class="stat-count">3</span></div>
+        </div>
+        <div class="project-card">
+          <h3>Software Development</h3>
+          <p>Custom software solutions for businesses, conceived to meet specific business needs and requirements.</p>
+          <div class="stats">Projects Delivered: <span class="stat-count">2</span></div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects section with card layout -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>AfricanCapitals</h3>
+          <p>API to fetch African capital cities using Python, designed for easy integration and scalability.</p>
+          <a href="https://github.com/kkweli/AfricanCapitals" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+        <div class="project-card">
+          <h3>Avaya</h3>
+          <p>Automation scripts using Python and Selenium for Avaya systems, streamlining repetitive tasks.</p>
+          <a href="https://github.com/kkweli/Avaya" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+        <div class="project-card">
+          <h3>Remote-directory-monitor</h3>
+          <p>C# console program that monitors remote directory file counts and notifies on threshold violations.</p>
+          <a href="https://github.com/kkweli/Remote-directory-monitor" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </div>
+    </section>
+    <!-- Skills section with icon grid and captions -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><i class="fab fa-html5"></i><p>HTML</p></div>
+        <div class="skill-card"><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+        <div class="skill-card"><i class="fab fa-python"></i><p>Python</p></div>
+        <div class="skill-card"><i class="fab fa-cuttlefish"></i><p>C#</p></div>
+        <div class="skill-card"><i class="fab fa-php"></i><p>PHP</p></div>
+        <div class="skill-card"><i class="fab fa-java"></i><p>Java</p></div>
+        <div class="skill-card"><i class="fas fa-database"></i><p>MySQL</p></div>
+        <div class="skill-card"><i class="fab fa-js"></i><p>JavaScript</p></div>
+        <div class="skill-card"><i class="fab fa-git-alt"></i><p>Git Bash</p></div>
+      </div>
+    </section>
+    <!-- Testimonials section with scrolling content -->
+    <section id="testimonials" class="section">
+      <h2>Testimonials</h2>
+      <div class="testimonials-scroll">
+        <div class="testimonial">
+          <p>"Kkweli's web development skills are top-notch! The site he built for us is fast and beautiful."</p>
+          <span>- Kazini, Client</span>
+        </div>
+        <div class="testimonial">
+          <p>"The automation scripts saved us hours of work. Highly recommend Kkweli!"</p>
+          <span>- Peter Baraka, Manager</span>
+        </div>
+        <div class="testimonial">
+          <p>"His directory monitoring tool is a game-changer for our team. Great work!"</p>
+          <span>- Alice Mwema, IT Lead</span>
+        </div>
+        <div class="testimonial">
+          <p>"Kkweli delivered a flawless API ahead of schedule. Amazing talent!"</p>
+          <span>- Mada Hotels, Client</span>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section with horizontal buttons -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="contact-buttons">
+        <a href="https://github.com/kkweli" target="_blank" rel="noopener" class="cta-button" aria-label="GitHub"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/wanjohigm/" target="_blank" rel="noopener" class="cta-button" aria-label="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="mailto:wanjohi_gm@live.com?subject=How%20can%20I%20get%20your%20services%3F" class="cta-button" aria-label="Email Me">Email Me</a>
+        <a href="assets/resume.pdf" download class="cta-button" aria-label="Download Resume">Download Resume</a>
+      </div>
+    </section>
+  </main>
+  <!-- Footer with copyright and social links -->
+  <footer>
+    <p>&copy; 2025 Kkweli George</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,32 @@
+/* Reset default browser styles for consistent rendering */
+* {
+  margin: 0; /* Resetting default margins */
+  padding: 0; /* Resetting default paddings */
+  box-sizing: border-box; /* Applying border-box sizing */
+}
+
+/* Base styles for body and html */
+body, html {
+  font-family: 'Roboto', sans-serif; /* Setting the font family */
+  line-height: 1.6; /* Setting the line height */
+  font-size: 16px; /* Setting the font size */
+}
+
+/* Removing text decoration from links */
+a {
+  text-decoration: none;
+  color: inherit; /* Inheriting color from parent */
+}
+
+/* Removing default list styles */
+ul {
+  list-style: none;
+}
+
+/* Inheriting font styles for form elements */
+button, input, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  border: none; /* Resetting borders */
+  outline: none; /* Resetting outlines */
+}
