@@ -74,7 +74,7 @@ Tap the hamburger icon to expand the menu with a nice slide effect, use the "X" 
 - Also, include `assets/resume.pdf` if you want the download to work.
 
 ## Contributing
-If you’ve got ideas, feel free to fork this repo and send pull requests! I’d love suggestions for adding dates to the timeline or expanding the project details.
+If you’ve got ideas, feel free to fork this repo and send pull requests! I’d love to collaborate or get suggestions.
 
 ## Contact
 - GitHub: [kkweli](https://github.com/kkweli)
