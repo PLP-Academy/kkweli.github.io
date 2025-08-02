@@ -8,7 +8,7 @@ Hey there! I’ve been working on this personal portfolio website to showcase my
 I wanted a place to highlight my technical expertise and GitHub contributions with a clean, modern design.
 
 ### Tech Stack
-I built it using plain HTML and CSS, with Font Awesome for icons to keep it simple yet stylish.
+I built it using plain HTML and CSS, with Font Awesome for icons.
 
 ### Design
 I opted for a sleek color palette featuring teal as the primary accent, paired with black and gray for a balanced contrast. To add some personality, I included an animated wave background that gently moves, enhancing the visual appeal. I also ensured the layout is fully responsive, adapting seamlessly across devices from mobile phones to desktops.
@@ -40,13 +40,13 @@ Scrolling client testimonials are included, showing feedback from people I’ve 
 Horizontal buttons let you reach me via GitHub, LinkedIn, email, or download my resume.
 
 ### Footer
-Keeps it simple with a copyright notice and social links, matching the header’s gradient.
+Keeps it simple with a copyright notice.
 
 ## Setup
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/kkweli/portfolio.git
+git clone https://github.com/PLP-Academy/kkweli.github.io.git
 cd portfolio
 ```
 
@@ -78,11 +78,3 @@ If you’ve got ideas, feel free to fork this repo and send pull requests! I’d
 
 ## Contact
 - GitHub: [kkweli](https://github.com/kkweli)
-- LinkedIn: [wanjohigm](https://www.linkedin.com/in/wanjohigm/)
-- Email: [wanjohi_gm@live.com](mailto:wanjohi_gm@live.com?subject=How%20can%20I%20get%20your%20services%3F)
-
-## Notes
-I’ve been tinkering with this over the past few days, and it’s coming along nicely as of 07:34 PM SAST on Saturday, August 02, 2025. I added comments to the HTML and CSS to make it easier to maintain, and I’ve formatted this README in Markdown to keep things clear. The animated background and smooth menu transitions are still there—hope you like them! Let me know what you think or if there’s anything else you’d like to see.
-
-## Why `reset.css`?
-I included `reset.css` to reset default browser styles (like margins, paddings, and font sizes) to zero. This helps ensure a consistent starting point across browsers like Chrome, Firefox, and Safari, avoiding unexpected layout issues and letting my custom styles shine.
